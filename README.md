@@ -1,4 +1,4 @@
-TASK DATE: 27.10.2017
+TASK DATE: 27.10.2017 - FINISHED: 27.10.2017
 
 TASK SHORT DESCRIPTION: 1133 (bootstrap icon colour to change according to hex used for 'theme text colour')
 
