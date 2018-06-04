@@ -1,18 +1,19 @@
+FOR PRIVACY AND CODE PROTECTING REASONS THIS IS A SIMPLIFIED VERSION OF CHANGES AND NEW FEATURES
+
 TASK DATE: 27.10.2017 - FINISHED: 27.10.2017
+
+TASK LEVEL: (EASY)  
 
 TASK SHORT DESCRIPTION: 1133 (bootstrap icon colour to change according to hex used for 'theme text colour')
 
 GITHUB REPOSITORY CODE: hotfix/task-1133-bootstrap-icon-colour-to-change
 
-ORIGINAL WORK: https://github.com/BusinessBecause/network-site/tree/hotfix/task-1133-bootstrap-icon-colour-to-change
-
-Login for test: (e.g clark-kent, pass: qwer1234)
 
 CHANGES
  
 	IN FILES: 
 	
-		\network-site\addons\default\modules\history\views\index.php
+		index.php
 		
 			ADDED CODE: 
 			
@@ -25,7 +26,10 @@ CHANGES
                     </a>
                 </li>				
 	
-		\network-site\addons\default\themes\toucantechV2\views\partials\header.html
+	
+	
+	
+		header.html
 		
 			ADDED CODE: 
 			
@@ -45,7 +49,10 @@ CHANGES
 				TO: "color: <?php echo $equal_colours ?> !important;" //I changed the lot IF statement to ONE
 			
 		
-		\network-site\addons\default\themes\toucantechV2\css\menu.css
+		
+		
+		
+		\menu.css
 		
 			ADDED CODE: 
 			
